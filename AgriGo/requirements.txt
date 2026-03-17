@@ -1,0 +1,16 @@
+# Web Framework
+flask==3.0.2
+werkzeug==3.0.1
+
+# Data Processing and Machine Learning
+pandas==2.2.1
+numpy==1.26.4
+scikit-learn==1.4.1.post1
+
+# Deep Learning (Optimized for Python 3.12 compatibility)
+tensorflow==2.20.0
+tf_keras==2.20.1
+pillow==10.2.0
+
+# Database
+# sqlite3 is built into Python, no entry needed here

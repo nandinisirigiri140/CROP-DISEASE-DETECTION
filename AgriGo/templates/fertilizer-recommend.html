@@ -1,0 +1,81 @@
+{% extends "index.html" %}
+{% block content %}
+
+<div class="container pt-5">
+    <h1 class="text-center" style="color: #8CE17D;">Fertilizer Recommendation</h1>
+    <p class="text-center pt-3">
+        Select the soil type and crop type to get the best fertilizer recommendation for better yield.
+    </p>
+</div>
+
+<br>
+<br>
+
+<div class="container">
+
+    <div class="col-md-4 col-md-offset-4" style="float: right; margin-top: 5%; margin-right: 10%;margin-bottom: 5%;">
+        <img src="./static/images/upload-img.jpg" width="500" height="333">
+    </div>
+
+    <form action="/fertilizer-recommendation" method="POST" style="margin-top: 5%">
+
+        <!-- Soil Type -->
+
+        <div class="col-md-4 col-md-offset-4">
+            <label for="soil_type">Soil Type :</label>
+
+            <select name="soil_type" class="form-control" required>
+
+                <option value="">-- Select Soil Type --</option>
+                <option value="Black">Black Soil</option>
+                <option value="Clayey">Clayey Soil</option>
+                <option value="Loamy">Loamy Soil</option>
+                <option value="Red">Red Soil</option>
+                <option value="Sandy">Sandy Soil</option>
+
+            </select>
+
+        </div>
+
+        <br>
+        <br>
+
+        <!-- Crop Type -->
+
+        <div class="col-md-4 col-md-offset-4">
+
+            <label for="crop_type">Crop Type :</label>
+
+            <select name="crop_type" class="form-control" required>
+
+                <option value="">-- Select Crop Type --</option>
+                <option value="Cotton">Cotton</option>
+                <option value="Barley">Barley</option>
+                <option value="Maize">Maize</option>
+                <option value="Groundnut">Ground Nuts</option>
+                <option value="Rice">Paddy</option>
+                <option value="Lentil">Pulses</option>
+                <option value="Millets">Millets</option>
+
+            </select>
+
+        </div>
+
+        <br>
+        <br>
+
+        <div class="text-center" style="padding-top: 5%">
+            <button type="submit" class="btn btn-success">Predict</button>
+        </div>
+
+        <br>
+        <br>
+
+    </form>
+
+</div>
+
+<br>
+<br>
+
+{% endblock %}

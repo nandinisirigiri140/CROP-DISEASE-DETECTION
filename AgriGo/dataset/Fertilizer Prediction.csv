@@ -1,0 +1,40 @@
+Soil,Crop,Fertilizer
+Black,Barley,Urea
+Black,Cotton,Urea
+Black,Ground Nuts,17-17-17
+Black,Maize,20-20
+Black,Millets,20-20
+Black,Paddy,DAP
+Black,Pulses,14-35-14
+
+Clayey,Barley,DAP
+Clayey,Cotton,Urea
+Clayey,Ground Nuts,17-17-17
+Clayey,Maize,20-20
+Clayey,Millets,20-20
+Clayey,Paddy,28-28
+Clayey,Pulses,14-35-14
+
+Loamy,Barley,20-20
+Loamy,Cotton,Urea
+Loamy,Ground Nuts,17-17-17
+Loamy,Maize,20-20
+Loamy,Millets,20-20
+Loamy,Paddy,28-28
+Loamy,Pulses,14-35-14
+
+Red,Barley,DAP
+Red,Cotton,Urea
+Red,Ground Nuts,17-17-17
+Red,Maize,20-20
+Red,Millets,20-20
+Red,Paddy,28-28
+Red,Pulses,14-35-14
+
+Sandy,Barley,10-26-26
+Sandy,Cotton,Urea
+Sandy,Ground Nuts,17-17-17
+Sandy,Maize,20-20
+Sandy,Millets,20-20
+Sandy,Paddy,DAP
+Sandy,Pulses,14-35-14
